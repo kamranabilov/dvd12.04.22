@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: yellow;
+    text-transform: uppercase;
+    animation: mymove 10s 4;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+h1{
+    color: black;
+    font: italic sem sans-serif;
+    font-style: italic;
+    letter-spacing: -5px;
+    font-weight: 900;
+    margin: 0 20px;
+    padding-top: 30px;
+}
+span{
+    color: rgb(253, 4, 4);
+    font: 32px sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0 30px;
+    margin-top: 10px;
+}
+@keyframes mymove{
+    0%{
+        background-color: yellow; 
+        left: 400px; 
+        top: 0px;}
+    25%{
+        background-color: blue; 
+        left: 1150px; 
+        top: 100px;}
+    50%{
+        background-color: whitesmoke;
+        left: 500px;
+        top: 0px;
+    }
+    75%{
+        background-color: red;
+        left: 0px;
+        top: 407px;
+    }
+    100%{
+        background-color: green;
+        left: 400;
+        top: 0;
+    }
+}
